@@ -538,6 +538,7 @@ body
 		padding: 10px;
 		margin-bottom: 40px;
 		height: 380px;
+		border: 1px solid #ccc;
 		// max-width: 365px;
 		width: 100%;
 		button
@@ -1405,7 +1406,7 @@ footer
 	}
 	.all-box .am .time-day
 	{
-		width: 100%;
+		width: 92%;
 	}
 	}
 
@@ -1415,7 +1416,10 @@ footer
 	}
 
 @media only screen and (max-width: 480px){
-
+	.fix-style-button
+	{
+		width: 100% !important;
+	}
 	.big
 	{
 		padding-left: 0;

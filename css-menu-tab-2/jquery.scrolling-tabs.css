@@ -26,12 +26,12 @@
 .scrtabs-allow-scrollbar .scrtabs-tabs-fixed-container {
   overflow-x: auto; }
   .scrtabs-allow-scrollbar .scrtabs-tabs-fixed-container::-webkit-scrollbar {
-    display: none; }
+  }
 
 .scrtabs-tabs-movable-container {
   position: relative; }
   .scrtabs-tabs-movable-container .tab-content {
-    display: none; }
+   }
 
 .scrtabs-tab-scroll-arrow {
   border: 1px solid #dddddd;
@@ -44,7 +44,7 @@
   height: 42px;
   padding-left: 2px;
   padding-top: 13px;
-  display: none !important;
+  /*display: none !important;*/
  }
   .scrtabs-tab-scroll-arrow:hover {
     background-color: #eeeeee; }
@@ -55,7 +55,6 @@
 
 .scrtabs-tabs-fixed-container ul.nav-tabs > li {
   white-space: nowrap;
-  
   padding: 0 5.3%;
   }
 @media only screen and (max-width: 1024px) {
