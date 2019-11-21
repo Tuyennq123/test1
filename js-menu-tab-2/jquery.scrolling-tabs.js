@@ -785,7 +785,7 @@
       if (!$activeTab.length) {
         return;
       }
-  
+
       /**
        * @author poletaew
        * We need relative offset (depends on $fixedContainer), don't absolute

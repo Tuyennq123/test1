@@ -32,3 +32,8 @@
 .st-demo-subheader:first-child {
   margin-top: 0;
 }
+.scrtabs-tabs-fixed-container ul.nav-tabs > li a
+{
+  border: none;
+  border-radius: 0;
+}

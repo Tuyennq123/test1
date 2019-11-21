@@ -1,14 +1,7 @@
-@import "base";
-@import "var";
+
 body
 {
-	.lich-box
-	{
-		.col-xs-12
-		{
-			padding:0px;
-		}
-	}
+
 	background:#EBEBEB;
 	.cont-all
 	{
@@ -604,6 +597,10 @@ body
 {
 	width: 100%;
 	text-align: center;
+	img
+	{
+		max-width: 150px;
+	}
 
 	p
 	{
@@ -965,8 +962,6 @@ footer
 	body .tab-content .all-ct-button
 	{
 		border: none;
-		display: flex;
-		margin-left: 25%;
 		.button-chi-tiet
 		{
 			margin-left: 3%;
@@ -1036,7 +1031,10 @@ footer
 }
 
 @media only screen and (max-width: 768px){
-
+.cont-1
+{
+	margin-right: 5%;
+}
 	///////////style vechungtoi1////////////
 
 	.title-info
@@ -1104,13 +1102,20 @@ footer
 }
 
 @media only screen and (max-width: 767px){
+	.lich-box
+	{
+		.col-xs-12
+		{
+			padding:0px;
+		}
+	}
 	.bt1
 	{
-		margin: 0px auto;
+		margin: 0px auto !important;
 	}
 	.bt2
 	{
-		margin: 0px auto;
+		margin: 0px auto !important;
 	}
 	.big
 	{
