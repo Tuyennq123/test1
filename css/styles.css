@@ -3,7 +3,8 @@ body .modal { margin-top: 5%; }
 body .modal .modal-dialog .modal-content .modal-body .time-leader { padding-top: 20%; padding-left: 5%; }
 body .modal .modal-dialog .modal-content .fa-times { color: white; }
 body .modal .modal-dialog .modal-content .modal-title { background: #0CACA7; color: white; padding: 2%; text-align: center; font-size: 20px; text-transform: uppercase; }
-body .price-ticket { text-align: center; font-size: 24px; padding-top: 10px; font-weight: bold; color: #0CACA7; }
+body .price-ticket, body .tick-1 { text-align: center; font-size: 24px; padding-top: 10px; font-weight: bold; color: #0CACA7; border-top: 1px dashed #8C8C8C; border-bottom: 1px dashed #8C8C8C; padding-bottom: 0.9%; clear: both; }
+body .tick-1 { border: none; }
 body .cont-all .fa { color: #BDBDBD; }
 body .img-content img { max-width: 180px; }
 body .lich-thi-dau { background: #EBEBEB; margin-bottom: 40px; }
@@ -184,7 +185,8 @@ footer .Copyright { font-size: 16px; text-align: right; }
   .all-box .tournaments .tournaments-button { text-align: center; }
   .all-box .tournaments .tournaments-button button { max-width: 150px; text-align: center; }
   .all-box .am { border: none; text-align: center; } }
-@media only screen and (max-width: 768px) { .cont-1 { margin-right: 5%; }
+@media only screen and (max-width: 768px) { .tick-1 { border-top: 1px dashed #8C8C8C !important; border-bottom: 1px dashed #8C8C8C !important; padding-bottom: 1% !important; }
+  .cont-1 { margin-right: 5%; }
   .title-info { text-align: center; }
   .all-box .content .vgs-group .vgs-holding .vgsholding-content .vgs-holding-title, .all-box .content .vgs-group .vgs-media .vgsholding-content .vgs-holding-title, .all-box .content .vgs-group .vgs-academy .vgsholding-content .vgs-holding-title, .all-box .content .vgs-group .vgs-event .vgsholding-content .vgs-holding-title { width: 100%; }
   .img-vga { margin: 0px auto; }
@@ -285,6 +287,7 @@ footer .Copyright { font-size: 16px; text-align: right; }
   .img-vgs { margin: 0px auto; }
   .tournaments-system-content { width: 100%; }
   .all-box .am { width: 100%; } }
-@media only screen and (max-width: 320px) { .all-ct-button { width: 100%; margin-left: 0 !important; } }
+@media only screen and (max-width: 320px) { .tick-1 { border-top: 1px dashed #8C8C8C !important; border-bottom: 1px dashed #8C8C8C !important; padding-bottom: 2% !important; }
+  .all-ct-button { width: 100%; margin-left: 0 !important; } }
 
 /*# sourceMappingURL=styles.css.map */
