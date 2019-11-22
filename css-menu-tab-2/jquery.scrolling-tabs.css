@@ -21,7 +21,8 @@
   float: left;
   height: 42px;
   overflow: hidden;
-  width: 100%; }
+  width: 100%;
+}
 
 .scrtabs-allow-scrollbar .scrtabs-tabs-fixed-container {
   overflow-x: auto; }
@@ -78,6 +79,18 @@
     white-space: nowrap;
     padding: 0 3.7%;
   }
-
-
 }
+
+@media only screen and (max-width: 600px) {
+
+  .scrtabs-tabs-fixed-container ul.nav-tabs > li {
+    white-space: nowrap;
+    padding: 0 2.7%;
+  }
+}
+
+.scrtabs-tab-scroll-arrow
+{
+  display: none !important;
+}
+

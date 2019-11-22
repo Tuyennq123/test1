@@ -1,7 +1,41 @@
 
 body
 {
-
+	.modal {
+		margin-top: 5%;
+		.modal-dialog {
+			.modal-content {
+				.modal-body
+				{
+					.time-leader
+					{
+						padding-top: 20%;
+						padding-left: 5%;
+					}
+				}
+				.fa-times
+				{
+					color: white;
+				}
+				.modal-title {
+					background: #0CACA7;
+					color: white;
+					padding: 2%;
+					text-align: center;
+					font-size: 20px;
+					text-transform: uppercase;
+				}
+			}
+		}
+	}
+	.price-ticket
+	{
+		text-align: center;
+		font-size: 24px;
+		padding-top: 10px;
+		font-weight: bold;
+		color:  #0CACA7;
+	}
 	background:#EBEBEB;
 	.cont-all
 	{
@@ -1373,15 +1407,10 @@ footer
 	///////////////////style gt giaidau////////////
 	.all-box .title-intro
 	{
-		display: flex;
-		text-align: left;
+
 		img
 		{
 			margin-left: 2%;
-		}
-		p
-		{
-			margin-left: 5%;
 		}
 
 	}
@@ -1391,10 +1420,10 @@ footer
 	}
 	.all-box .am 
 	{
-		text-align: left;
-		width: 71%;
-    float: left;
-    margin-left: 4%;
+		//text-align: left;
+		//width: 71%;
+		width: 100%;
+    	float: left;
 	}
 }
 
@@ -1406,7 +1435,8 @@ footer
 	}
 	.all-box .am .time-day
 	{
-		width: 92%;
+		//width: 92%;
+		width: 100%;
 	}
 	}
 
@@ -1443,7 +1473,7 @@ footer
 	}
 	.all-box .am 
 	{
-		width: 80%;
+		width: 100% !important;
 	}
 }
 @media only screen and (max-width: 450px){
@@ -1523,7 +1553,8 @@ footer
 					
 	.all-box .am
 	{
-		width: 90%;
+		//width: 90%;
+		width: 100%;
 	}
 	.all-ct-button
 	{
@@ -1582,7 +1613,7 @@ footer
 
 	.all-box .am
 	{
-		width: 95%;
+		width: 100%;
 	}
 }
 @media only screen and (max-width: 320px){
