@@ -172,7 +172,8 @@ footer .Copyright { font-size: 16px; text-align: right; }
   .all-box .tournaments .tournaments-desc .tournaments-button { margin-top: 10px; }
   .all-box .tournaments .tournaments-system { height: 370px; }
   .vgs-desc { padding-left: 15%; } }
-@media only screen and (max-width: 991px) { .cont-all { display: flex; }
+@media only screen and (max-width: 991px) { .button-intro { width: 60% !important; }
+  .cont-all { display: flex; }
   body .tab-content .all-ct-button { border: none; }
   body .tab-content .all-ct-button .button-chi-tiet { margin-left: 3%; }
   .all-ct-button { border: none; }
@@ -258,7 +259,8 @@ footer .Copyright { font-size: 16px; text-align: right; }
   .all-box .am .time-day { width: 100%; } }
 .img-vgs { margin: 0px auto; }
 
-@media only screen and (max-width: 480px) { .fix-style-button { width: 100% !important; }
+@media only screen and (max-width: 480px) { .button-intro { width: 90% !important; padding: 5% 0px; }
+  .fix-style-button { width: 100% !important; }
   .big { padding-left: 0; }
   .cont-all { padding-left: 0; }
   .all-ct-button { width: 100%; } }
