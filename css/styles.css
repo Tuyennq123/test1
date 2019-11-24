@@ -1,4 +1,13 @@
 body { background: #EBEBEB; font-size: 16px; }
+body .time-fix { width: 100%; text-align: center; border-top: 1px dashed #8C8C8C; border-bottom: 1px dashed #8C8C8C; height: 50px; padding-top: 1.2%; }
+body .all-menu { background: white; }
+body .logo-1 { padding-bottom: 5px; }
+body .header-text-top { font-size: 10px; padding: 15px 0 !important; }
+body .header-infor { width: 100%; background: #004251; padding: 10px; }
+body .header-infor p { color: white; }
+body .header-infor .form-dki .form-control { margin-top: 15px; }
+body .header-infor .form-dki button { background: #F26F21; width: 100px; border: none; padding: 5px; margin-top: 16px; border-radius: 5px; border-radius: 5px; color: white; }
+body .header-infor .form-dki input { color: black; }
 body .modal { margin-top: 5%; }
 body .modal .modal-dialog .modal-content .modal-body .time-leader { padding-top: 20%; padding-left: 5%; }
 body .modal .modal-dialog .modal-content .fa-times { color: white; }
@@ -17,7 +26,7 @@ body .all-ct-button .button-chi-tiet .button-text { width: 100%; }
 body .all-ct-button .button-chi-tiet .button-text button { border-radius: 20px; border: none; background: #F26F21; color: white; padding: 4% 10%; }
 body .chi-tiet { padding-top: 10%; font-size: 16px; }
 body .chi-tiet .fa { padding-right: 2%; }
-body .title-info { padding-left: 1%; }
+body .title-info { padding-left: 1%; text-transform: uppercase; font-size: 30px; font-weight: bold; }
 body .tournaments-button { text-align: center; }
 body .button-price1 { max-width: 150px; }
 body .button-price2 { max-width: 150px; }
@@ -62,11 +71,6 @@ body .leader-all-1 .leader-img img { width: 100%; }
 .header .header-menu { width: 100%; height: 64px; background: white; }
 .header .header-menu img { width: 100%; }
 .header .header-banner { width: 100%; }
-.header .header-infor { width: 100%; background: #004251; padding: 10px; }
-.header .header-infor p { color: white; }
-.header .header-infor .form-dki .form-control { margin-top: 15px; }
-.header .header-infor .form-dki button { background: #F26F21; width: 100px; border: none; padding: 5px; margin-top: 16px; border-radius: 5px; border-radius: 5px; color: white; }
-.header .header-infor .form-dki input { color: black; }
 
 .all-box { max-width: 1200px; margin: 0px auto; }
 .all-box .content { width: 100%; background: white; padding: 30px 0px; border-radius: 10px; margin-top: 20px; }
@@ -97,7 +101,7 @@ body .leader-all-1 .leader-img img { width: 100%; }
 .all-box .tournaments .tournaments-desc { line-height: 29px; }
 .all-box .tournaments .tournaments-desc .fa { font-size: 18px; color: #ccc; }
 .all-box .tournaments .tournaments-desc .tournaments-button { margin-top: 50px; text-align: center; }
-.all-box .tournaments .tournaments-system { box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.35); border-radius: 10px; padding: 10px; margin-bottom: 40px; height: 380px; border: 1px solid #ccc; width: 100%; }
+.all-box .tournaments .tournaments-system { box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.35); border-radius: 10px; padding: 10px; margin-bottom: 40px; height: 350px; border: 1px solid #ccc; width: 100%; }
 .all-box .tournaments .tournaments-system button { height: 39px; }
 .all-box .tournaments .tournaments-system .tournaments-price1 { text-align: center; padding-top: 18px; }
 .all-box .tournaments .tournaments-system .tournaments-price2 { text-align: center; padding-top: 18px; }
@@ -109,8 +113,8 @@ body .leader-all-1 .leader-img img { width: 100%; }
 .all-box .title-intro { width: 100%; text-align: center; }
 .all-box .title-intro img { max-width: 150px; }
 .all-box .title-intro p { font-size: 28px; font-weight: bold; text-transform: uppercase; }
-.all-box .am { text-align: center; margin: 0px auto; border-top: 1px dashed #8C8C8C; border-bottom: 1px dashed #8C8C8C; min-height: 50px; padding-top: 13px; width: 95%; display: flex; }
-.all-box .am .time-day { width: 80%; margin: 0px auto; }
+.all-box .am { margin: 0px auto; border-top: 1px dashed #8C8C8C; border-bottom: 1px dashed #8C8C8C; padding-top: 13px; width: 95%; display: flex; }
+.all-box .am .time-day { width: 80%; margin: 0px auto; text-align: center; }
 .all-box .button-intro { width: 30%; margin: 0px auto; text-align: center; margin-top: 2%; clear: both; }
 .all-box .intro-desc-all { width: 95%; margin: 0px auto; margin-top: 30px; border: 1px solid #ccc; }
 .all-box .intro-desc-all .intro-desc-title { padding: 10px; background: #004251; color: white; text-align: center; text-transform: uppercase; font-weight: bold; }
@@ -123,8 +127,8 @@ body .leader-all-1 .leader-img img { width: 100%; }
 .all-box .container { background: #fff; }
 .all-box .time { padding-top: 25px; }
 .all-box .title { font-size: 30px; font-weight: bold; }
-.all-box .title-box { font-size: 17px; background: #EBEBEB; padding: 10px 10px 10px 15px; }
-.all-box .banner { width: 100%; padding: 40px 0px 44px 0px; }
+.all-box .title-box { font-size: 17px; background: #EBEBEB; padding: 10px 10px 10px 15px; margin-top: 1%; }
+.all-box .banner { width: 100%; padding: 30px 0px 44px 0px; }
 .all-box .title-post { font-size: 17px; }
 .all-box .text { text-align: justify; }
 .all-box .share button { background: #1E6ECD; color: #fff; width: 80px; height: 24px; }
@@ -166,13 +170,27 @@ footer .Copyright { font-size: 16px; text-align: right; }
   footer .ft { text-align: center; }
   footer .ft .icon { float: none; margin: 0px auto; flex-wrap: wrap; }
   footer .ft .icon .icon-footer { text-align: center; } }
-@media only screen and (max-width: 1199px) and (min-width: 992px) { .header .header-infor .form-dki button { margin-left: 35%; } }
-@media only screen and (max-width: 1024px) { .title-info { text-align: center; }
+@media only screen and (max-width: 1024px) { .header-text-top { padding: 7% 0 !important; font-size: 9px !important; }
+  header .header-center .main-nav ul li { margin-left: 5px !important; }
+  .title-info { text-align: center; }
   .tournaments-system { margin: 0px auto; }
   .all-box .tournaments .tournaments-desc .tournaments-button { margin-top: 10px; }
   .all-box .tournaments .tournaments-system { height: 370px; }
   .vgs-desc { padding-left: 15%; } }
-@media only screen and (max-width: 991px) { .button-intro { width: 60% !important; }
+@media only screen and (max-width: 1199px) and (min-width: 992px) { .header .header-infor .form-dki button { margin-left: 35%; } }
+@media only screen and (max-width: 991px) { .fix-st { width: 50%; margin: 0px auto; }
+  .all-box .am .time-day { text-align: inherit; }
+  .tick-1 { border-top: 1px dashed #8C8C8C !important; border-bottom: 1px dashed #8C8C8C !important; padding-bottom: 1% !important; }
+  .time-fix { border: none !important; }
+  header .header-center .main-nav { top: 90px !important; background-color: #FFFFFF !important; color: black !important; }
+  header .header-center .main-nav ul li { border-bottom: 1px solid #ccc; }
+  header .header-center .main-nav ul li a { color: black !important; padding: 3% !important; font-size: 12px !important; }
+  header #open-search-form { top: 60px !important; color: #0CACA7; }
+  header #open-menu { top: 60px !important; color: #0CACA7; }
+  .header-center-image { width: 80%; margin: 0px auto; }
+  .header-text-top { display: flex !important; padding: 1% !important; font-size: 9px !important; width: 80%; margin: 0px auto; margin-bottom: -1px !important; }
+  .header-center-image { display: flex !important; }
+  .button-intro { width: 60% !important; }
   .cont-all { display: flex; }
   body .tab-content .all-ct-button { border: none; }
   body .tab-content .all-ct-button .button-chi-tiet { margin-left: 3%; }
@@ -185,7 +203,7 @@ footer .Copyright { font-size: 16px; text-align: right; }
   .desc-info { text-align: justify; }
   .all-box .tournaments .tournaments-button { text-align: center; }
   .all-box .tournaments .tournaments-button button { max-width: 150px; text-align: center; }
-  .all-box .am { border: none; text-align: center; } }
+  .all-box .am { border: none; } }
 @media only screen and (max-width: 768px) { .tick-1 { border-top: 1px dashed #8C8C8C !important; border-bottom: 1px dashed #8C8C8C !important; padding-bottom: 1% !important; }
   .cont-1 { margin-right: 5%; }
   .title-info { text-align: center; }
@@ -214,7 +232,7 @@ footer .Copyright { font-size: 16px; text-align: right; }
   body .tab-content .all-ct-button { border: none; display: flex; margin-left: 0; }
   body .tab-content .all-ct-button .button-chi-tiet { margin-left: 3%; }
   .tab-content .img-content { padding: 0; }
-  .ap { padding-right: 2%; }
+  .ap { padding-right: 15%; }
   .all-box .content .vgs-group .vgs-group-main .img-vgs { margin: 0px auto; }
   .vgs-desc { text-align: center; padding: 0; }
   .button-price1 { width: 150px; }
@@ -234,7 +252,10 @@ footer .Copyright { font-size: 16px; text-align: right; }
   .all-box .tournaments .tournaments-system .logo img { width: 73px; height: 67px; margin: 0px auto; }
   .all-box .tournaments .tournaments-system .name { width: 80%; font-size: 24px; }
   .all-box .tournaments .tournaments-system .tournaments-system-content { padding-left: 5%; display: flex; border: none; border-bottom: 1px dashed #878787; } }
-@media only screen and (max-width: 640px) { .all-ct-button { display: flex; border: none !important; }
+@media only screen and (max-width: 760px) { .fix-st { width: 55%; margin: 0px auto; } }
+@media only screen and (max-width: 699px) { .fix-st { width: 70%; margin: 0px auto; } }
+@media only screen and (max-width: 640px) { .fix-st { width: 70%; margin: 0px auto; }
+  .all-ct-button { display: flex; border: none !important; }
   .all-ct-button .button-text { margin-right: 30px; }
   .div { display: flex; padding-left: 9%; }
   .img-content { max-width: 200px; }
@@ -253,36 +274,44 @@ footer .Copyright { font-size: 16px; text-align: right; }
   .tournaments-title { text-align: center; }
   .all-box .slide .banner-right { display: none; }
   .all-box .title-intro img { margin-left: 2%; }
-  .all-box .am .time-day { margin: 1px; }
+  .all-box .am .time-day { margin: 1px; margin: 0px auto; }
   .all-box .am { width: 100%; float: left; } }
+@media only screen and (max-width: 760px) { .fix-st { width: 90%; margin: 0px auto; } }
 @media only screen and (max-width: 499px) { .all-box .tournaments .tournaments-system { height: 260px; }
   .all-box .am .time-day { width: 100%; } }
 .img-vgs { margin: 0px auto; }
 
-@media only screen and (max-width: 480px) { .button-intro { width: 90% !important; padding: 5% 0px; }
+@media only screen and (max-width: 480px) { .all-box .title-intro { padding: 0 10px; }
+  .all-box .title-intro p { font-size: 2.5rem; }
+  header .header-center .main-nav { top: 102px !important; }
+  .button-intro { width: 90% !important; padding: 5% 0px; }
   .fix-style-button { width: 100% !important; }
   .big { padding-left: 0; }
   .cont-all { padding-left: 0; }
   .all-ct-button { width: 100%; } }
-@media only screen and (max-width: 452px) { .all-box .tournaments .tournaments-system { height: 280px; }
-  .all-box .am { width: 100% !important; } }
-@media only screen and (max-width: 450px) { .all-box .tournaments .tournaments-system { height: 320px; }
-  .tournaments-price1 { padding-right: 1%; }
+@media only screen and (max-width: 452px) { .all-box .am { width: 100% !important; } }
+@media only screen and (max-width: 450px) { .tournaments-price1 { padding-right: 1%; }
   .header-infor .form-dki { text-align: center; }
   .header-infor .form-dki input { margin-bottom: 5%; }
   .header-infor .form-dki button { margin: 11%; margin-bottom: 1%; } }
 @media screen and (max-width: 400px) { .all-ct-button { padding: 0 !important; width: 100%; }
   .all-ct-button .button-chi-tiet { margin: 0px auto; } }
-@media only screen and (max-width: 375px) { .all-ct-button { width: 100%; }
+@media only screen and (max-width: 375px) { .all-box .tournaments .tournaments-system { height: 300px; }
+  header #open-search-form { top: 60px !important; color: #0CACA7; }
+  header #open-menu { top: 60px !important; color: #0CACA7; }
+  .all-ct-button { width: 100%; }
   .all-ct-button .button-chi-tiet { margin: 0px auto; } }
-@media only screen and (max-width: 360px) { body .nav-tabs > li { padding: 0; }
+@media only screen and (max-width: 360px) { header .header-center .main-nav { top: 102px !important; }
+  body .nav-tabs > li { padding: 0; }
   .all-box .am { width: 100%; }
   .all-ct-button { width: 84%; }
   .big { padding: 0; }
   .cont-all { padding: 0; } }
-@media only screen and (max-width: 340px) { body .nav-tabs > li { padding: 0; }
+@media only screen and (max-width: 340px) { .fix-st { width: 100%; margin: 0px auto; }
+  body .nav-tabs > li { padding: 0; }
   .header-infor .form-dki { text-align: center; }
   .header-infor .form-dki input { margin-bottom: 5%; }
+  header .header-center .main-nav { top: 68px !important; }
   .all-box .tournaments .tournaments-system { height: 300px; }
   .all-box .tournaments .tournaments-system .tournaments-system-content { padding-left: 0; }
   .all-box .tournaments .tournaments-system .tournaments-system-content .main-1 { margin-right: 0; }
@@ -290,6 +319,9 @@ footer .Copyright { font-size: 16px; text-align: right; }
   .tournaments-system-content { width: 100%; }
   .all-box .am { width: 100%; } }
 @media only screen and (max-width: 320px) { .tick-1 { border-top: 1px dashed #8C8C8C !important; border-bottom: 1px dashed #8C8C8C !important; padding-bottom: 2% !important; }
-  .all-ct-button { width: 100%; margin-left: 0 !important; } }
+  .all-ct-button { width: 100%; margin-left: 0 !important; }
+  header .header-center .main-nav { top: 92px !important; }
+  header #open-search-form { top: 56px !important; color: #0CACA7; }
+  header #open-menu { top: 55px !important; color: #0CACA7; } }
 
 /*# sourceMappingURL=styles.css.map */

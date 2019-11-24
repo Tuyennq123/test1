@@ -87,7 +87,14 @@
     white-space: nowrap;
     padding: 0 2.7%;
   }
+}@media only screen and (max-width: 420px) {
+
+  .scrtabs-tabs-fixed-container ul.nav-tabs > li {
+    white-space: nowrap;
+    padding: 0 4px;
+  }
 }
+
 
 .scrtabs-tab-scroll-arrow
 {
