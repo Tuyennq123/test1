@@ -1,3 +1,4 @@
+
 var GUI = {};
 
 GUI.searchFormHeader = function(){

@@ -13,6 +13,11 @@
     <link rel="stylesheet" href="css-menu-tab-2/st-demo.css">
     <link rel="stylesheet" type="text/css" href="css/mobile.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+	<script>
+		$(window).load(function(){
+			$(".stiki").sticky({ });
+		});
+	</script>
 	<style>
 		.col-xs-12
 		{
@@ -53,9 +58,10 @@
                     <div class="col-lg-9">
                         <div class="header-langauge">
                             <div class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" id="dropdownMenuButton" aria-haspopup="true" aria-expanded="false">
-                                   <img src="img/vietnam.jpg" class="img-fluid">
-                                </a>
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" id="dropdownMenuButton" aria-haspopup="true" aria-expanded="false">
+									VN <img src="img/vietnam.jpg" class="img-fluid">
+									<i class="fa fa-angle-down"></i>
+								</a>
                                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                     <li class="dropdown-item">
                                         <a href="#">
@@ -97,12 +103,12 @@
                             <div class="col-md-6 col-sm-6 col-6 text-center">
                                 <div class="logo-1">
                                     <!-- <img style="max-width: 100px" src="img/Group.png"> -->
-                                      <img style="max-width: 100px" src="img/logo_vgs 1.png">
+									<img  src="img/Group1.png">
                                 </div>
                             </div>
                             <div class="col-md-6 col-sm-6 col-6 text-center">
                                 <div class="logo-1">
-                                      <img style="max-width: 100px" src="img/logo_vgs 1.png">
+                                      <img  src="img/logo_vgs 1.png">
                                 </div>
                             </div>
                         </div>
@@ -463,5 +469,6 @@
     <script src="js-menu-tab-2/jquery.scrolling-tabs.js"></script>
     <script src="js-menu-tab-2/st-demo.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
+	<script type="text/javascript" src="js/jquery.sticky.js"></script>
 </body>
 </html>

@@ -4,7 +4,7 @@
 	<title>Về chúng tôi</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="js/bootstrap.min.js">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link rel="stylesheet" type="text/css" href="css/style-menu.css">
@@ -13,6 +13,12 @@
     <link rel="stylesheet" href="css-menu-tab-2/st-demo.css">
     <link rel="stylesheet" type="text/css" href="css/mobile.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+    <script>
+        $(window).load(function(){
+            $(".stiki").sticky({ });
+        });
+    </script>
 
 </head>
 <style type="text/css">
@@ -108,6 +114,7 @@
     </div>
   </div>
 	<header>
+        <div class="stiki">
         <div class="header-top">
             <div class="container">
                 <div class="row">
@@ -129,7 +136,8 @@
                         <div class="header-langauge">
                             <div class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" id="dropdownMenuButton" aria-haspopup="true" aria-expanded="false">
-                                   <img src="img/vietnam.jpg" class="img-fluid">
+                                    VN <img src="img/vietnam.jpg" class="img-fluid">
+                                    <i class="fa fa-angle-down"></i>
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                     <li class="dropdown-item">
@@ -171,13 +179,12 @@
                         <div class="row header-center-image">
                             <div class="col-md-6 col-sm-6 col-6 text-center">
                                 <div class="logo-1">
-                                    <!-- <img style="max-width: 100px" src="img/Group.png"> -->
-                                      <img style="max-width: 100px" src="img/logo_vgs 1.png">
+                                    <img  src="img/Group1.png">
                                 </div>
                             </div>
                             <div class="col-md-6 col-sm-6 col-6 text-center">
                                 <div class="logo-1">
-                                      <img style="max-width: 100px" src="img/logo_vgs 1.png">
+                                      <img  src="img/logo_vgs 1.png">
                                 </div>
                             </div>
                         </div>
@@ -247,6 +254,7 @@
             </div>
             </div>
         </div>
+        </div>
     </header>
 	<!-- /////content///// -->
 	<div class="all-box">
@@ -263,7 +271,7 @@
 						<div class="vga-desc">
 							<p  class="desc-title">Hiệp hội Golf Việt Nam (VGA)</p>
 							<p class="desc-info"> Hiệp hội Golf Việt Nam (VGA) được thành lập theo Quyết định 1326/QĐ-BNV ngày 12 tháng 10 năm 2006 của Bộ Nội vụ. Là tổ chức xã hội nghề nghiệp, VGA được Bộ Văn hoá – Thể Thao – Du lịch giao trách nhiệm quản lý cao nhất về các hoạt động của ngành thể thao golf ở Việt Nam. Cho tới nay, VGA có các thành viên là hội golf địa phương, các câu lạc bộ golf và các sân golf trên khắp cả nước.</p>
-							<p data-toggle="modal" data-target="#myModal" class="leader-vga"><a href="#">LÃNH ĐẠO HIỆP HỘI GOLF VIỆT NAM QUA CÁC THỜI KỲ</a></p>
+                            <p data-toggle="modal" data-target="#myModal" class="leader-vga"><a href="#"><b>LÃNH ĐẠO HIỆP HỘI GOLF VIỆT NAM QUA CÁC THỜI KỲ</b></a></p>
 						</div>
 					</div>
 				</div>
@@ -394,6 +402,7 @@
     <script src="js-menu-tab-2/jquery.scrolling-tabs.js"></script>
     <script src="js-menu-tab-2/st-demo.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/jquery.sticky.js"></script>
 
 
 </body>

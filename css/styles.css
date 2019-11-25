@@ -1,7 +1,13 @@
 body { background: #EBEBEB; font-size: 16px; }
+body .big { text-transform: uppercase; font-weight: bold; font-size: 22px; }
+body .dropdown { width: 100px; text-align: center; }
+body .dropdown-menu { margin-top: 11px !important; }
+body .dropdown-menu .dropdown-item:hover { background: red !important; }
+body .stiki { z-index: 999999 !important; }
 body .time-fix { width: 100%; text-align: center; border-top: 1px dashed #8C8C8C; border-bottom: 1px dashed #8C8C8C; height: 50px; padding-top: 1.2%; }
 body .all-menu { background: white; }
 body .logo-1 { padding-bottom: 5px; }
+body .logo-1 img { max-width: 100px; }
 body .header-text-top { font-size: 10px; padding: 15px 0 !important; }
 body .header-infor { width: 100%; background: #004251; padding: 10px; }
 body .header-infor p { color: white; }
@@ -26,7 +32,7 @@ body .all-ct-button .button-chi-tiet .button-text { width: 100%; }
 body .all-ct-button .button-chi-tiet .button-text button { border-radius: 20px; border: none; background: #F26F21; color: white; padding: 4% 10%; }
 body .chi-tiet { padding-top: 10%; font-size: 16px; }
 body .chi-tiet .fa { padding-right: 2%; }
-body .title-info { padding-left: 1%; text-transform: uppercase; font-size: 30px; font-weight: bold; }
+body .title-info { text-transform: uppercase; font-size: 30px; font-weight: bold; }
 body .tournaments-button { text-align: center; }
 body .button-price1 { max-width: 150px; }
 body .button-price2 { max-width: 150px; }
@@ -45,10 +51,11 @@ body .leader-all-1 .leader-img img { width: 100%; }
 .header #open-menu, .header #open-search-form { position: absolute; top: 55px; font-size: 20px; display: none; z-index: 99; }
 .header #open-menu { left: 15px; }
 .header #open-search-form { right: 15px; }
-.header .header-top { background-color: #08ccba; }
+.header .header-top { background-color: #0CACA7 !important; }
 .header .header-top .header-text-top { padding: 1rem 0; background-color: #fff; text-transform: uppercase; }
 .header .header-top .header-langauge { float: right; padding: .8rem 0; }
-.header .header-top .header-langauge img { width: 25px; height: 25px; border: 1px solid #fff; border-radius: 10px; }
+.header .header-top .header-langauge img { width: 25px; height: 25px; border: 1px solid #fff; border-radius: 20px; margin: 0 5px; }
+.header .header-center { box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.25); background: red !important; }
 .header .header-center #search-form-mobile { width: 100%; display: none; }
 .header .header-center #search-form-mobile input { width: 100%; }
 .header .header-center #search-form-mobile button { position: absolute; right: 25px; top: 3px; }
@@ -72,7 +79,7 @@ body .leader-all-1 .leader-img img { width: 100%; }
 .header .header-menu img { width: 100%; }
 .header .header-banner { width: 100%; }
 
-.all-box { max-width: 1200px; margin: 0px auto; }
+.all-box { max-width: 1170px; margin: 0px auto; }
 .all-box .content { width: 100%; background: white; padding: 30px 0px; border-radius: 10px; margin-top: 20px; }
 .all-box .content .vga { width: 92%; border-radius: 10px; border: 1px solid #ccc; margin: 0px auto; padding: 30px; }
 .all-box .content .vga .img-vga { width: 210px; height: 132px; }

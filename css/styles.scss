@@ -1,6 +1,33 @@
 body
 {
-	
+
+		.big
+		{
+			text-transform: uppercase;
+			font-weight: bold;
+			font-size: 22px;
+		}
+		.dropdown
+		{
+			width: 100px;
+			text-align: center;
+		}
+		.dropdown-menu
+		{
+			margin-top: 11px !important;
+			.dropdown-item
+			{
+				&:hover
+				{
+					background: red !important;
+				}
+			}
+
+		}
+	.stiki
+	{
+		z-index: 999999 !important;
+	}
 	.time-fix
 	{
 		width: 100%;
@@ -19,6 +46,10 @@ body
 	.logo-1
 	{
 		padding-bottom: 5px ;
+		img
+		{
+			max-width: 100px;
+		}
 	}
 	.header-text-top
 	{
@@ -180,7 +211,6 @@ body
 	//////////////////////////
 	.title-info
 	{
-		padding-left: 1%;
 		text-transform: uppercase;
 		font-size: 30px;
 		font-weight: bold;
@@ -272,7 +302,7 @@ body
 		right: 15px;
 	}
 	.header-top{
-		background-color: #08ccba;
+		background-color:  #0CACA7 !important;
 		.header-text-top{
 			padding: 1rem 0;
 			background-color: #fff;
@@ -285,11 +315,14 @@ body
 				width: 25px;
 				height: 25px;
 				border: 1px solid #fff;
-				border-radius: 10px;
+				border-radius: 20px;
+				margin: 0 5px;
 			}
 		}
 	}
 	.header-center{
+		box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.25);
+		background: red !important;
 		#search-form-mobile{
 			width: 100%;
 			display: none;
@@ -404,7 +437,7 @@ body
 
 }
 .all-box{
-	max-width: 1200px;
+	max-width: 1170px;
 	margin: 0px auto;
 	.content
 	{
@@ -1669,8 +1702,6 @@ footer
 			margin-bottom: 1%;
 		}
 	}
-
-
 }
 @media screen and (max-width: 414px) {
 	//.all-ct-button
@@ -1782,7 +1813,6 @@ footer
     		top: 68px !important;
 		}
 
-	//////////////////////////
 	/////////////style giaidau//////////
 	.all-box .tournaments .tournaments-system{
 		height: 300px;
@@ -1820,10 +1850,7 @@ footer
 	{
 		width: 100%;
 		margin-left: 0 !important;
-		//.button-chi-tiet
-		//{
-		//	margin-right: 10%;
-		//}
+
 	}
 	header .header-center .main-nav {
     	top: 92px !important;
@@ -1842,4 +1869,4 @@ footer
 		}
 	}
 }
-/////////////////////mobile header menu//////
+

@@ -4,7 +4,7 @@
 	<title>Video</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-  	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="js/bootstrap.min.js">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link rel="stylesheet" type="text/css" href="css/style-menu.css">
@@ -13,11 +13,17 @@
     <link rel="stylesheet" href="css-menu-tab-2/st-demo.css">
     <link rel="stylesheet" type="text/css" href="css/mobile.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+    <script>
+        $(window).load(function(){
+            $(".stiki").sticky({ });
+        });
+    </script>
     <style type="text/css">
-        .video-gt-all
-        {
-            margin-bottom: 40px;
-        }
+        /*.video-gt-all*/
+        /*{*/
+        /*    margin-bottom: 10px;*/
+        /*}*/
         .text-gt
         {
             line-height: 10px;
@@ -26,7 +32,8 @@
     </style>
 </head>
 <body>
-		<header>
+<header>
+    <div class="stiki">
         <div class="header-top">
             <div class="container">
                 <div class="row">
@@ -48,7 +55,8 @@
                         <div class="header-langauge">
                             <div class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" id="dropdownMenuButton" aria-haspopup="true" aria-expanded="false">
-                                   <img src="img/vietnam.jpg" class="img-fluid">
+                                    VN <img src="img/vietnam.jpg" class="img-fluid">
+                                    <i class="fa fa-angle-down"></i>
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                     <li class="dropdown-item">
@@ -90,13 +98,12 @@
                         <div class="row header-center-image">
                             <div class="col-md-6 col-sm-6 col-6 text-center">
                                 <div class="logo-1">
-                                    <!-- <img style="max-width: 100px" src="img/Group.png"> -->
-                                      <img style="max-width: 100px" src="img/logo_vgs 1.png">
+                                    <img  src="img/Group1.png">
                                 </div>
                             </div>
                             <div class="col-md-6 col-sm-6 col-6 text-center">
                                 <div class="logo-1">
-                                      <img style="max-width: 100px" src="img/logo_vgs 1.png">
+                                      <img  src="img/logo_vgs 1.png">
                                 </div>
                             </div>
                         </div>
@@ -166,6 +173,7 @@
             </div>
             </div>
         </div>
+    </div>
     </header>
 	<div class="all-box">
 		<h2 class="title-info">Video giải đấu</h2>
@@ -350,10 +358,11 @@
             </div>
         </div>
     </footer>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-    <script src="js-menu-tab-2/jquery.scrolling-tabs.js"></script>
-    <script src="js-menu-tab-2/st-demo.js"></script>
-    <script type="text/javascript" src="js/script.js"></script>
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src="js-menu-tab-2/jquery.scrolling-tabs.js"></script>
+        <script src="js-menu-tab-2/st-demo.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
+        <script type="text/javascript" src="js/jquery.sticky.js"></script>
 </body>
 </html>

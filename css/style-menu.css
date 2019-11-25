@@ -1,3 +1,4 @@
+
 a,
 a:hover,
 a:focus,
@@ -1009,7 +1010,7 @@ header #open-search-form {
 }
 
 header .header-top {
-    background-color: #08ccba
+    background:   #0CACA7 !important;
 }
 
 header .header-top .header-text-top {
@@ -1020,14 +1021,22 @@ header .header-top .header-text-top {
 
 header .header-top .header-langauge {
     float: right;
-    padding: .8rem 0
+    padding: .8rem 0;
+    color:white;
 }
-
+header .header-top .header-langauge .dropdown-menu{
+       padding: 0;
+}
+header .header-top .header-langauge .dropdown-menu .dropdown-item :hover {
+        background: #0CACA7;
+        color: white;
+}
 header .header-top .header-langauge img {
     width: 25px;
     height: 25px;
     border: 1px solid #fff;
-    border-radius: 10px
+    border-radius: 20px;
+    margin: 0 10px;
 }
 
 header .header-center #search-form-mobile {
@@ -1118,11 +1127,16 @@ header .header-center .main-nav ul #search-form-btn {
 }
 
 header .header-center .main-nav ul .search-form-header {
+    border: 1px solid #0CACA7;
+    margin-top: 22px;
     position: absolute;
     width: 350px;
     right: 0;
     top: calc(100% + 5px);
     display: none
+}
+header .header-center .main-nav ul .search-form-header .fa{
+    color: #0CACA7;
 }
 
 header .header-center .main-nav ul .search-form-header input {
@@ -1135,6 +1149,10 @@ header .header-center .main-nav ul .search-form-header button {
     font-size: 20px;
     position: absolute;
     right: 5px
+}
+.header-center
+{
+    background: white !important;
 }
 @media only screen and (max-width: 1024px){
     header .header-center .main-nav ul li:not(:last-child) {
