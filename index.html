@@ -12,12 +12,6 @@
     <link rel="stylesheet" href="css-menu-tab-2/st-demo.css">
     <link rel="stylesheet" type="text/css" href="css/mobile.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
-    <script>
-        $(window).load(function(){
-            $(".stiki").sticky({ });
-        });
-    </script>
     <Style>
     h2
     {
@@ -34,11 +28,19 @@
         font-style: italic;
         margin-top: -10px;
     }
+    .stiki
+    {
+        position: fixed;
+        z-index: 99999;
+        margin: 0px auto;
+        width:100%;
+        top: 0;
+    }
 </Style>
 </head>
 <body style="background: white">
     <header>
-        <div style="position: fixed; z-index: 99999; margin: 0px auto;" class="st">
+        <div class="stiki">
         <div class="header-top">
             <div class="container">
                 <div class="row">
@@ -46,12 +48,12 @@
                         <div class="row header-text-top">
                             <div class="col-md-6 col-sm-6 col-6">
                                 <div class="text-center">
-                                    đơn vị tổ chức
+                                    <a href="#">đơn vị tổ chức</a>
                                 </div>
                             </div>
                             <div class="col-md-6 col-sm-6 col-6">
                                 <div class="text-center">
-                                    đơn vị thực hiện
+                                    <a href="#">đơn vị thực hiện</a>
                                 </div>
                             </div>
                         </div>
@@ -102,12 +104,12 @@
                         <div class="row header-center-image">
                             <div class="col-md-6 col-sm-6 col-6 text-center">
                                 <div class="logo-1">
-                                    <img  src="img/Group1.png">
+                                    <a href="index.html"><img  src="img/Group1.png"></a>
                                 </div>
                             </div>
                             <div class="col-md-6 col-sm-6 col-6 text-center">
                                 <div class="logo-1">
-                                      <img src="img/logo_vgs 1.png">
+                                    <a href="index.html"><img src="img/logo_vgs 1.png"></a>
                                 </div>
                             </div>
                         </div>
@@ -164,7 +166,7 @@
                                         <i class="fa fa-search"></i>
                                     </button>
                                     <form class="search-form-header">
-                                        <input type="text" name="" placeholder="Enter keywords">
+                                        <input type="text" name="" placeholder="Nhập từ khóa cần tìm">
                                         <button type="submit">
                                             <i class="fa fa-search"></i>
                                         </button>
@@ -180,7 +182,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div style="margin-top: 112px;" class="header-banner">
-                    <img src="img/banner.png">
+                    <img src="img/bn1.png">
                 </div>
             </div>
         </div>
@@ -218,7 +220,7 @@
     <div class="top-content">
         <div class="container-fluid">
         <div class="col-lg-12">
-            <h1 style="text-align: center;">
+            <h1 style="text-align: center; text-transform: uppercase">
                 Lịch thi đấu 2020
             </h1>
             <p style="text-align: center;"><a href="#">Xem cả mùa giải 20 ngày thi đấu chỉ với 1000.000 VND. Vé chỉ bán tới hết 31/2/2020.</a></p>
@@ -242,7 +244,7 @@
                 </div>
             </div>
             <div class="col-lg-6 col-sm-6 col-xs-12">
-                <p class="big">vô địch golf các clb việt nam</p>
+                <a href="#"><p class="big">vô địch golf các clb việt nam</p></a>
                 <div class="cont-all">
                     <div class="cont-1">
                         <p><i class="fa fa-calendar "></i> 15/03/2020</p>
@@ -282,7 +284,7 @@
                 </div>
             </div>
             <div class="col-lg-6 col-sm-6 col-xs-12">
-                <p class="big">vô địch golf các clb châu âu</p>
+                <a href="#"><p class="big">vô địch golf các clb châu âu</p></a>
                 <div class="cont-all">
                     <div class="cont-1">
                         <p><i class="fa fa-calendar "></i> 15/03/2020</p>
@@ -322,7 +324,7 @@
                 </div>
             </div>
             <div class="col-lg-6 col-sm-6 col-xs-12">
-                <p class="big">vô địch golf các clb châu á</p>
+                <a href="#"><p class="big">vô địch golf các clb châu á</p></a>
                 <div class="cont-all">
                     <div class="cont-1">
                         <p><i class="fa fa-calendar "></i> 15/03/2020</p>
@@ -362,7 +364,7 @@
                 </div>
             </div>
             <div class="col-lg-6 col-sm-6 col-xs-12">
-                <p class="big">Vô địch golf các câu lạc bộ châu phi</p>
+                <a href="#"><p class="big">Vô địch golf các câu lạc bộ châu phi</p></a>
                 <div class="cont-all">
                     <div class="cont-1">
                         <p><i class="fa fa-calendar "></i> 15/03/2020</p>
@@ -402,7 +404,7 @@
                 </div>
             </div>
             <div class="col-lg-6 col-sm-6 col-xs-12">
-                <p class="big">Vô địch golf các câu lạc bộ châu mỹ</p>
+                <a href="#"><p class="big">Vô địch golf các câu lạc bộ châu mỹ</p></a>
                 <div class="cont-all">
                     <div class="cont-1">
                         <p><i class="fa fa-calendar "></i> 15/03/2020</p>
@@ -442,7 +444,7 @@
                 </div>
             </div>
             <div class="col-lg-6 col-sm-6 col-xs-12">
-                <p class="big">Vô địch golf các câu lạc bộ thế giới</p>
+                <a href="#"><p class="big">Vô địch golf các câu lạc bộ thế giới</p></a>
                 <div class="cont-all">
                     <div class="cont-1">
                         <p><i class="fa fa-calendar "></i> 15/03/2020</p>
@@ -481,32 +483,32 @@
     </div>
             <div class="container">
                 <div class="row">
-                        <div class="col-lg-12 col-xs-12">
-                            <div style="margin:20px 0px;" class="qc"></div>
+                        <div class="col-lg-12 col-xs-12 qc-mobile">
+                            <a href="#"><div style="margin:20px 0px;" class="qc"></div></a>
                         </div>
                         <div class="col-lg-12 col-xs-12">
-                            <h2 style="text-align: center; text-transform: uppercase; padding: 0px;">Tin giải đấu</h2>
+                            <a href="#"><h2 style="text-align: center; text-transform: uppercase; padding: 0px;">Tin giải đấu</h2></a>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
                             <div class="post-main">
-                                <img src="img/video.png">
-                                <p><b> Những hình ảnh đầu tiên tại vòng mở màn Honda Classic 2019</b></p>
+                                <a href="#"><img src="img/video.png"></a>
+                                <a href="#"><p><b> Những hình ảnh đầu tiên tại vòng mở màn Honda Classic 2019</b></p></a>
                                 <p class="post-time"><i class="fa fa-clock-o"></i> 1 ngày trước</p>
                                 <p>Đội tuyển WAGC Việt Nam chia sẻ cảm xúc khi giành vô địch Vòng Chung kết WAGC thế giới 2018</p>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
                             <div class="post-main">
-                                <img src="img/video.png">
-                                <p><b> Những hình ảnh đầu tiên tại vòng mở màn Honda Classic 2019</b></p>
+                                <a href="#"><img src="img/video.png"></a>
+                                <a href="#"><p><b> Những hình ảnh đầu tiên tại vòng mở màn Honda Classic 2019</b></p></a>
                                 <p class="post-time"><i class="fa fa-clock-o"></i> 1 ngày trước</p>
                                 <p>Đội tuyển WAGC Việt Nam chia sẻ cảm xúc khi giành vô địch Vòng Chung kết WAGC thế giới 2018</p>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
                             <div class="post-main">
-                                <img src="img/video.png">
-                                <p><b> Những hình ảnh đầu tiên tại vòng mở màn Honda Classic 2019</b></p>
+                                <a href="#"> <img src="img/video.png"></a>
+                                <a href="#"><p><b> Những hình ảnh đầu tiên tại vòng mở màn Honda Classic 2019</b></p></a>
                                  <p class="post-time"><i class="fa fa-clock-o"></i> 1 ngày trước</p>
                                 <p>Đội tuyển WAGC Việt Nam chia sẻ cảm xúc khi giành vô địch Vòng Chung kết WAGC thế giới 2018</p>
                             </div>
@@ -514,8 +516,8 @@
                         <div style="text-align: center;" class="col-lg-12 col-xs-12">
                             <button class="btn-all">Xem thêm</button>
                         </div>
-                        <div class="col-lg-12 col-xs-12">
-                            <div style="margin-bottom: 50px;" class="qc"></div>
+                        <div class="col-lg-12 col-xs-12 qc-mobile">
+                            <a href="#"><div style="margin-bottom: 50px;" class="qc"></div></a>
                         </div>
                 </div>
             </div>
@@ -523,26 +525,26 @@
             <div style="background: #2F2F2F;" class="container">
                 <div class="row">
                         <div class="col-lg-12">
-                            <p style="text-align: center; text-transform: uppercase;font-size:32px;margin-top: 30px;">Video giải đấu</p>
+                            <a href="#"><p style="text-align: center; text-transform: uppercase;font-size:32px;margin-top: 30px;">Video giải đấu</p></a>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
                             <div class="post-main">
-                                <img src="img/video.png">
-                                <p><b> Những hình ảnh đầu tiên tại vòng mở màn Honda Classic 2019</b></p>
+                                <a href="#"><img src="img/video.png"></a>
+                                <a href="#"><p><b> Những hình ảnh đầu tiên tại vòng mở màn Honda Classic 2019</b></p></a>
                                 <p class="post-time"><i class="fa fa-clock-o"></i> 1 ngày trước</p>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
                             <div class="post-main">
-                                <img src="img/video.png">
-                                <p><b> Những hình ảnh đầu tiên tại vòng mở màn Honda Classic 2019</b></p>
+                                <a href="#"><img src="img/video.png"></a>
+                                <a href="#"><p><b> Những hình ảnh đầu tiên tại vòng mở màn Honda Classic 2019</b></p></a>
                                 <p class="post-time"><i class="fa fa-clock-o"></i> 1 ngày trước</p>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
                             <div class="post-main">
-                                <img src="img/video.png">
-                                <p><b> Những hình ảnh đầu tiên tại vòng mở màn Honda Classic 2019</b></p>
+                                <a href="#"><img src="img/video.png"></a>
+                                <a href="#"><p><b> Những hình ảnh đầu tiên tại vòng mở màn Honda Classic 2019</b></p></a>
                                 <p class="post-time"><i class="fa fa-clock-o"></i> 1 ngày trước</p>
                             </div>
                         </div>
@@ -612,6 +614,4 @@
     <script src="js-menu-tab-2/st-demo.js"></script>
     <script type="text/javascript" src="js/jquery.sticky.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
-<!--    <script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>-->
-
 </html>

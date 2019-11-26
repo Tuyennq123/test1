@@ -13,11 +13,16 @@
     <link rel="stylesheet" href="css-menu-tab-2/st-demo.css">
     <link rel="stylesheet" type="text/css" href="css/mobile.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-	<script>
-		$(window).load(function(){
-			$(".stiki").sticky({ });
-		});
-	</script>
+	<style>
+		.stiki
+		{
+			position: fixed;
+			z-index: 99999;
+			margin: 0px auto;
+			width:100%;
+			top: 0;
+		}
+	</style>
 </head>
 <body>
 <header>
@@ -86,8 +91,7 @@
                         <div class="row header-center-image">
                             <div class="col-md-6 col-sm-6 col-6 text-center">
                                 <div class="logo-1">
-                                    <!-- <img style="max-width: 100px" src="img/Group.png"> -->
-									<img  src="img/Group1.png">>
+									<img  src="img/Group1.png">
                                 </div>
                             </div>
                             <div class="col-md-6 col-sm-6 col-6 text-center">
@@ -99,7 +103,7 @@
                     </div>
                     <div class="col-lg-9">
                         <form id="search-form-mobile">
-                            <input type="text" name="" placeholder="Enter keywords">
+                            <input type="text" name="" placeholder="Nhập từ khóa cần tìm">
                             <button type="submit">
                                 <i class="fa fa-search"></i>
                             </button>
@@ -149,7 +153,7 @@
                                         <i class="fa fa-search"></i>
                                     </button>
                                     <form class="search-form-header">
-                                        <input type="text" name="" placeholder="Enter keywords">
+                                        <input type="text" name="" placeholder="Nhập từ khóa cần tìm">
                                         <button type="submit">
                                             <i class="fa fa-search"></i>
                                         </button>
@@ -166,7 +170,7 @@
     </header>
 	<div class="all-box">
 		<h2 style="margin-top: 60px;" class="title-info">Giải đấu sắp diễn ra</h2>
-		<div class="content">
+		<div style="margin-top: 70px;" class="content">
 			<div class="container">
 				<div class="row">
 					<div class="tournaments">
@@ -223,7 +227,7 @@
 							<div class="tournaments-system">
 								<div class="tournaments-system-title">
 									<div class="logo">
-										<img style="width: 73px; height: 67px" class="img-responsive" src="img/vn.png">
+										<img class="img-responsive" src="img/vn.png">
 									</div>
 									<div class="name">
 										<p>Vô địch golf các câu lạc bộ việt nam</p>
@@ -255,7 +259,7 @@
 							<div class="tournaments-system">
 								<div class="tournaments-system-title">
 									<div class="logo">
-										<img style="width: 73px; height: 67px" class="img-responsive" src="img/vn.png">
+										<img  class="img-responsive" src="img/vn.png">
 									</div>
 									<div class="name">
 										<p>Vô địch golf các câu lạc bộ việt nam</p>
@@ -287,7 +291,7 @@
 							<div class="tournaments-system">
 								<div class="tournaments-system-title">
 									<div class="logo">
-										<img style="width: 73px; height: 67px" class="img-responsive" src="img/vn.png">
+										<img  class="img-responsive" src="img/vn.png">
 									</div>
 									<div class="name">
 										<p>Vô địch golf các câu lạc bộ việt nam</p>
@@ -319,7 +323,7 @@
 							<div class="tournaments-system">
 								<div class="tournaments-system-title">
 									<div class="logo">
-										<img style="width: 73px; height: 67px" class="img-responsive" src="img/vn.png">
+										<img  class="img-responsive" src="img/vn.png">
 									</div>
 									<div class="name">
 										<p>Vô địch golf các câu lạc bộ việt nam</p>
@@ -351,7 +355,7 @@
 							<div class="tournaments-system">
 								<div class="tournaments-system-title">
 									<div class="logo">
-										<img style="width: 73px; height: 67px" class="img-responsive" src="img/vn.png">
+										<img  class="img-responsive" src="img/cn.png">
 									</div>
 									<div class="name">
 										<p>Vô địch golf các câu lạc bộ việt nam</p>
@@ -383,7 +387,7 @@
 							<div class="tournaments-system">
 								<div class="tournaments-system-title">
 									<div class="logo">
-										<img style="width: 73px; height: 67px" class="img-responsive" src="img/vn.png">
+										<img  class="img-responsive" src="img/vn.png">
 									</div>
 									<div class="name">
 										<p>Vô địch golf các câu lạc bộ việt nam</p>
@@ -447,6 +451,5 @@
     <script src="js-menu-tab-2/jquery.scrolling-tabs.js"></script>
     <script src="js-menu-tab-2/st-demo.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
-<script type="text/javascript" src="js/jquery.sticky.js"></script>
 </body>
 </html>

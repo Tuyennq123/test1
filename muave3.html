@@ -13,12 +13,6 @@
     <link rel="stylesheet" href="css-menu-tab-2/st-demo.css">
     <link rel="stylesheet" type="text/css" href="css/mobile.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
-    <script>
-        $(window).load(function(){
-            $(".stiki").sticky({ });
-        });
-    </script>
 	<style>
 		@media only screen and (max-width: 452px){
 			.all-box .am {
@@ -27,7 +21,11 @@
 		}
         .stiki
         {
-            z-index: 999999 !important;
+            position: fixed;
+            z-index: 99999;
+            margin: 0px auto;
+            width:100%;
+            top: 0;
         }
 	</style>
 </head>
@@ -178,7 +176,7 @@
     </header>
 <div class="all-box">
 	<h1 class="title-info">Mua vé</h1>
-	<div class="content">
+	<div style="margin-top: 90px;" class="content">
 		<div class="container">
 			<div class="row">
 				<div class="title-intro">
@@ -269,6 +267,5 @@
     <script src="js-menu-tab-2/jquery.scrolling-tabs.js"></script>
     <script src="js-menu-tab-2/st-demo.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
-    <script type="text/javascript" src="js/jquery.sticky.js"></script>
 </body>
 </html>

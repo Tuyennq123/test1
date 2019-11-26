@@ -1,5 +1,23 @@
 body
 {
+		.tournaments-system-content {
+			.fa {
+				font-size: 20px !important;
+				color: #ccc;
+				margin-right: 5px;
+			}
+		}
+
+		button
+		{
+			border-radius: 0px !important;
+		}
+		a{
+			&:hover
+			{
+				color: orange;
+			}
+		}
 		.top-content
 		{
 			width: 100%;
@@ -29,10 +47,6 @@ body
 			}
 
 		}
-	.stiki
-	{
-		z-index: 999999 !important;
-	}
 	.time-fix
 	{
 		width: 100%;
@@ -59,7 +73,6 @@ body
 	.header-text-top
 	{
 		font-size: 10px;
-		padding:15px 0 !important;
 	}
 	.header-infor
 	{
@@ -140,9 +153,10 @@ body
 	background:#EBEBEB;
 	.cont-all
 	{
-		.fa
-		{
-			color:#BDBDBD;
+		.fa {
+			font-size: 20px !important;
+			color: #ccc;
+			margin-right: 5px;
 		}
 	}
 	.img-content
@@ -318,9 +332,8 @@ body
 			padding: .8rem 0;
 			img{
 				width: 25px;
-				height: 25px;
+				height: 15px;
 				border: 1px solid #fff;
-				border-radius: 20px;
 				margin: 0 5px;
 			}
 		}
@@ -645,9 +658,8 @@ body
 			border-radius: 10px;
 			padding: 10px;
 			margin-bottom: 40px;
-			height: 350px;
+			height: 360px;
 			border: 1px solid #ccc;
-			// max-width: 365px;
 			width: 100%;
 			button
 			{
@@ -666,10 +678,11 @@ body
 			}
 			.tournaments-system-title
 			{
-				width: 100%;
 				display: flex;
 				border-bottom: 1px dashed #878787;
 				padding: 10px 0px;
+				max-width: 340px;
+				height: 100px;
 
 			}
 			.name
@@ -683,6 +696,10 @@ body
 			{
 				width: 30%;
 				margin: 0px auto;
+				img
+				{
+					max-width: 100px;
+				}
 			}
 			.tournaments-system-content
 			{
@@ -935,6 +952,7 @@ body
 	color: orange;
 	margin-bottom: 50px;
 	transition:0.3s;
+	text-transform: uppercase;
 	&:hover
 	{
 		background: orange;
@@ -1101,8 +1119,7 @@ footer
 		color: black !important;
 		 ul 
 		 li{
-		 
-		 	    border-bottom: 1px solid #ccc;
+			 border-bottom: 1px solid #ccc;
 			 a 
 			 {
 			 	color: black !important;
@@ -1115,13 +1132,13 @@ footer
 	header{
 		#open-search-form
 		{
-			top:60px !important;
+			top:50px !important;
 			color: #0CACA7;
 
 		}
 		#open-menu
 		{
-			top:60px !important;
+			top:50px !important;
 			color: #0CACA7;
 		}
 	}
@@ -1633,6 +1650,10 @@ footer
 }
 
 @media only screen and (max-width: 480px){
+	.qc-mobile
+	{
+		padding: 0;
+	}
 	.all-box .title-intro
 	{	
 		padding: 0 10px;
@@ -1744,13 +1765,13 @@ footer
 	header{
 		#open-search-form
 		{
-			top:60px !important;
+			top:50px !important;
 			color: #0CACA7;
 
 		}
 		#open-menu
 		{
-			top:60px !important;
+			top:50px !important;
 			color: #0CACA7;
 		}
 	}
@@ -1863,13 +1884,13 @@ footer
 	header{
 		#open-search-form
 		{
-			top:56px !important;
+			top:40px !important;
 			color: #0CACA7;
 
 		}
 		#open-menu
 		{
-			top:55px !important;
+			top:40px !important;
 			color: #0CACA7;
 		}
 	}

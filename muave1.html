@@ -13,17 +13,19 @@
     <link rel="stylesheet" href="css-menu-tab-2/st-demo.css">
     <link rel="stylesheet" type="text/css" href="css/mobile.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
-    <script>
-        $(window).load(function(){
-            $(".stiki").sticky({ });
-        });
-    </script>
 	<style>
 		.fix-st .col-xs-12
 		{
 			padding: 0;
 		}
+        .stiki
+        {
+            position: fixed;
+            z-index: 99999;
+            margin: 0px auto;
+            width:100%;
+            top: 0;
+        }
 	</style>
 </head>
 <body>
@@ -50,26 +52,27 @@
                         <div class="header-langauge">
                             <div class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" id="dropdownMenuButton" aria-haspopup="true" aria-expanded="false">
-                                    VN <img src="img/vietnam.jpg" class="img-fluid">
+                                     <img src="img/vietnam.jpg" class="img-fluid">
+                                    VN
                                     <i class="fa fa-angle-down"></i>
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                     <li class="dropdown-item">
                                         <a href="#">
-                                            VN
                                             <img src="img/vietnam.jpg" class="img-fluid">
+                                            VN
                                         </a>
                                     </li>
                                     <li class="dropdown-item">
                                          <a href="#">
-                                            VN
                                             <img src="img/vietnam.jpg" class="img-fluid">
+                                             VN
                                         </a>
                                     </li>
                                     <li class="dropdown-item">
                                          <a href="#">
-                                            VN
                                             <img src="img/vietnam.jpg" class="img-fluid">
+                                             VN
                                         </a>
                                     </li>
                                 </ul>
@@ -172,7 +175,7 @@
     </header>
 	<div class="all-box">
 		<h1 class="title-info">Mua vé</h1>
-		<div class="content">
+		<div style="margin-top: 90px;" class="content">
 			<div class="container">
 				<div class="row">
 					<div class="title-intro">
@@ -274,7 +277,6 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <script src="js-menu-tab-2/jquery.scrolling-tabs.js"></script>
     <script src="js-menu-tab-2/st-demo.js"></script>
-    <script type="text/javascript" src="js/jquery.sticky.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>
