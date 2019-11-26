@@ -13,14 +13,17 @@
     <link rel="stylesheet" href="css-menu-tab-2/st-demo.css">
     <link rel="stylesheet" type="text/css" href="css/mobile.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+    <script>
+        $(window).load(function(){
+            $(".stiki").sticky({ topSpacing: 0 });
+        });
+    </script>
     <style>
         .stiki
         {
-            position: fixed;
-            z-index: 99999;
-            margin: 0px auto;
-            width:100%;
-            top: 0;
+            z-index: 99999 !important;
         }
     </style>
 </head>
@@ -169,7 +172,7 @@
         </div>
     </header>
 	<div class="all-box">
-		<h1 style="margin-top: 160px;" class="title-info">tài trợ</h1>
+		<h1  class="title-info">tài trợ</h1>
 		<div  class="content">
 			<div class="container">
 				<div class="row">
@@ -338,8 +341,7 @@
     </footer>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-    <script src="js-menu-tab-2/jquery.scrolling-tabs.js"></script>
-    <script src="js-menu-tab-2/st-demo.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/jquery.sticky.js"></script>
 </body>
 </html>

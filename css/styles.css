@@ -4,7 +4,7 @@ body button { border-radius: 0px !important; }
 body a:hover { color: orange; }
 body .top-content { width: 100%; }
 body .big { text-transform: uppercase; font-weight: bold; font-size: 22px; }
-body .dropdown { width: 100px; text-align: center; }
+body .dropdown { text-align: center; }
 body .dropdown-menu { margin-top: 14px !important; }
 body .dropdown-menu .dropdown-item:hover { background: red !important; }
 body .time-fix { width: 100%; text-align: center; border-top: 1px dashed #8C8C8C; border-bottom: 1px dashed #8C8C8C; height: 50px; padding-top: 1.2%; }
