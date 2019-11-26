@@ -5,7 +5,7 @@ body a:hover { color: orange; }
 body .top-content { width: 100%; background: #EBEBEB; }
 body .big { text-transform: uppercase; font-weight: bold; font-size: 22px; }
 body .dropdown { width: 100px; text-align: center; }
-body .dropdown-menu { margin-top: 11px !important; }
+body .dropdown-menu { margin-top: 14px !important; }
 body .dropdown-menu .dropdown-item:hover { background: red !important; }
 body .time-fix { width: 100%; text-align: center; border-top: 1px dashed #8C8C8C; border-bottom: 1px dashed #8C8C8C; height: 50px; padding-top: 1.2%; }
 body .all-menu { background: white; }
@@ -131,6 +131,7 @@ body .leader-all-1 .leader-img img { width: 100%; }
 .all-box .intro-desc-all .intro-desc-title { padding: 10px; background: #004251; color: white; text-align: center; text-transform: uppercase; font-weight: bold; }
 .all-box .intro-desc-all .intro-desc { padding: 10px 20px; text-align: justify; }
 .all-box .intro-desc-all .table-user th { padding: 10px 20px; }
+.all-box .intro-desc-all .table-user .media img { max-width: 100px; }
 .all-box .law { line-height: 15px; margin-top: 50px; width: 100%; }
 .all-box .law p { line-height: 26px; }
 .all-box .law button { margin: 0px auto; }

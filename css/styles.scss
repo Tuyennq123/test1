@@ -37,7 +37,7 @@ body
 		}
 		.dropdown-menu
 		{
-			margin-top: 11px !important;
+			margin-top: 14px !important;
 			.dropdown-item
 			{
 				&:hover
@@ -785,6 +785,13 @@ body
 			th
 			{
 				padding: 10px 20px;
+			}
+			.media
+			{
+				img
+				{
+					max-width: 100px;
+				}
 			}
 		}
 	}
