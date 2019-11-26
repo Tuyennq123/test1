@@ -2,7 +2,7 @@ body { background: #EBEBEB; font-size: 16px; }
 body .tournaments-system-content .fa { font-size: 20px !important; color: #ccc; margin-right: 5px; }
 body button { border-radius: 0px !important; }
 body a:hover { color: orange; }
-body .top-content { width: 100%; background: #EBEBEB; }
+body .top-content { width: 100%; }
 body .big { text-transform: uppercase; font-weight: bold; font-size: 22px; }
 body .dropdown { width: 100px; text-align: center; }
 body .dropdown-menu { margin-top: 14px !important; }
@@ -194,7 +194,7 @@ footer .Copyright { font-size: 16px; text-align: right; }
   .all-box .am .time-day { text-align: inherit; }
   .tick-1 { border-top: 1px dashed #8C8C8C !important; border-bottom: 1px dashed #8C8C8C !important; padding-bottom: 1% !important; }
   .time-fix { border: none !important; }
-  header .header-center .main-nav { top: 90px !important; background-color: #FFFFFF !important; color: black !important; }
+  header .header-center .main-nav { background-color: #FFFFFF !important; color: black !important; }
   header .header-center .main-nav ul li { border-bottom: 1px solid #ccc; }
   header .header-center .main-nav ul li a { color: black !important; padding: 3% !important; font-size: 12px !important; }
   header #open-search-form { top: 50px !important; color: #0CACA7; }
@@ -296,7 +296,6 @@ footer .Copyright { font-size: 16px; text-align: right; }
 @media only screen and (max-width: 480px) { .qc-mobile { padding: 0; }
   .all-box .title-intro { padding: 0 10px; }
   .all-box .title-intro p { font-size: 2.5rem; }
-  header .header-center .main-nav { top: 102px !important; }
   .button-intro { width: 90% !important; padding: 5% 0px; }
   .fix-style-button { width: 100% !important; }
   .big { padding-left: 0; }
@@ -314,8 +313,7 @@ footer .Copyright { font-size: 16px; text-align: right; }
   header #open-menu { top: 50px !important; color: #0CACA7; }
   .all-ct-button { width: 100%; }
   .all-ct-button .button-chi-tiet { margin: 0px auto; } }
-@media only screen and (max-width: 360px) { header .header-center .main-nav { top: 102px !important; }
-  body .nav-tabs > li { padding: 0; }
+@media only screen and (max-width: 360px) { body .nav-tabs > li { padding: 0; }
   .all-box .am { width: 100%; }
   .all-ct-button { width: 84%; }
   .big { padding: 0; }
@@ -333,7 +331,6 @@ footer .Copyright { font-size: 16px; text-align: right; }
   .all-box .am { width: 100%; } }
 @media only screen and (max-width: 320px) { .tick-1 { border-top: 1px dashed #8C8C8C !important; border-bottom: 1px dashed #8C8C8C !important; padding-bottom: 2% !important; }
   .all-ct-button { width: 100%; margin-left: 0 !important; }
-  header .header-center .main-nav { top: 92px !important; }
   header #open-search-form { top: 40px !important; color: #0CACA7; }
   header #open-menu { top: 40px !important; color: #0CACA7; } }
 

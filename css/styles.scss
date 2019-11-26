@@ -21,7 +21,6 @@ body
 		.top-content
 		{
 			width: 100%;
-			background:  #EBEBEB;
 
 		}
 		.big
@@ -1121,7 +1120,6 @@ footer
 	}
 	header .header-center .main-nav
 	{
-		top: 90px !important;
 		background-color: #FFFFFF !important;
 		color: black !important;
 		 ul 
@@ -1669,9 +1667,6 @@ footer
 			font-size: 2.5rem;
 		}
 	}
-	header .header-center .main-nav {
-    	top: 102px !important;
-	}
 	.button-intro
 	{
 		width: 90% !important;
@@ -1792,9 +1787,7 @@ footer
 	}
 }
 @media  only screen and (max-width: 360px) {
-	header .header-center .main-nav {
-    	top: 102px !important;
-	}
+
 	body .nav-tabs > li
 	{
 		padding: 0;
@@ -1885,9 +1878,7 @@ footer
 		margin-left: 0 !important;
 
 	}
-	header .header-center .main-nav {
-    	top: 92px !important;
-	}
+
 	header{
 		#open-search-form
 		{
