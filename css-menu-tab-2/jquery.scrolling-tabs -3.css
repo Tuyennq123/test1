@@ -1,0 +1,115 @@
+/**
+ * jquery-bootstrap-scrolling-tabs
+ * @version v1.2.2
+ * @link https://github.com/mikejacobson/jquery-bootstrap-scrolling-tabs
+ * @author Mike Jacobson <michaeljjacobson1@gmail.com>
+ * @license MIT License, http://www.opensource.org/licenses/MIT
+ */
+.scrtabs-tab-container * {
+  box-sizing: border-box;
+  background: white;
+  color: black;
+  margin-bottom: 3%;
+   }
+
+.scrtabs-tab-container {
+  height: 42px;
+margin-bottom: 20px; }
+  .scrtabs-tab-container .tab-content {
+    clear: left; }
+/*////style nut bam///*/
+.scrtabs-tabs-fixed-container {
+  float: left;
+  height: 42px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.scrtabs-allow-scrollbar .scrtabs-tabs-fixed-container {
+  overflow-x: auto;
+}
+  .scrtabs-allow-scrollbar .scrtabs-tabs-fixed-container::-webkit-scrollbar {
+  }
+
+.scrtabs-tabs-movable-container {
+  position: relative; }
+  .scrtabs-tabs-movable-container .tab-content {
+   }
+
+.scrtabs-tab-scroll-arrow {
+  border: 1px solid #dddddd;
+  border-top: none;
+  color: #428bca;
+  cursor: pointer;
+  display: none;
+  float: left;
+  font-size: 12px;
+  padding-left: 2px;
+  padding-top: 13px;
+  height: 42px;
+ }
+  .scrtabs-tab-scroll-arrow:hover {
+    /*background-color: #eeeeee;*/
+  }
+
+.scrtabs-tab-scroll-arrow.scrtabs-disable {
+  color: #ddd;
+  cursor: default;
+}
+
+.scrtabs-tabs-fixed-container ul.nav-tabs > li{
+  white-space: nowrap;
+  margin-left: 2.3%;
+  border:1px solid  #0BABA6;
+  }
+.scrtabs-tabs-fixed-container ul.nav-tabs > li a{
+  background: #0BABA6;
+  color: white;
+  transition: 0.3s;
+  margin-right: 0px !important;
+}
+@media only screen and (max-width: 1024px) {
+  .scrtabs-tabs-fixed-container ul.nav-tabs > li {
+    margin-left: 0;
+  }
+}
+@media only screen and (max-width: 991px) {
+
+  .scrtabs-tabs-fixed-container ul.nav-tabs > li {
+    white-space: nowrap;
+  }
+  .scrtabs-allow-scrollbar .scrtabs-tabs-fixed-container {
+    height: 60px;
+  }
+
+}
+@media only screen and (max-width: 767px) {
+
+  .scrtabs-tabs-fixed-container ul.nav-tabs > li {
+    white-space: nowrap;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+
+  .scrtabs-tabs-fixed-container ul.nav-tabs > li {
+    white-space: nowrap;
+    /*padding: 0 2.7%;*/
+  }
+}@media only screen and (max-width: 420px) {
+  .scrtabs-allow-scrollbar .scrtabs-tabs-fixed-container {
+    height: 60px;
+  }
+  .scrtabs-tabs-fixed-container ul.nav-tabs > li {
+    margin-left: 0%;
+    border: 0px;
+  }
+  .scrtabs-tab-scroll-arrow
+   {
+    display: none !important;
+   }
+}
+
+
+
+
