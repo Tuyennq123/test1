@@ -15,11 +15,11 @@
 .scrtabs-tab-container {
   height: 42px;
 margin-bottom: 20px; }
-  /*.scrtabs-tab-container .tab-content {*/
-  /*  clear: left; }*/
+  .scrtabs-tab-container .tab-content {
+    clear: left; }
 /*////style nut bam///*/
 .scrtabs-tabs-fixed-container {
-  /*float: left;*/
+  float: left;
   height: 42px;
   overflow: hidden;
   width: 100%;
@@ -35,19 +35,18 @@ margin-bottom: 20px; }
   .scrtabs-tabs-movable-container .tab-content {
    }
 
-/*.scrtabs-tab-scroll-arrow {*/
-/*  border: 1px solid #dddddd;*/
-/*  border-top: none;*/
-/*  color: #428bca;*/
-/*  cursor: pointer;*/
-/*  display: none;*/
-/*  float: left;*/
-/*  font-size: 12px;*/
-/*  !*height: 42px;*!*/
-/*  padding-left: 2px;*/
-/*  padding-top: 13px;*/
-/*  !*display: none !important;*!*/
-/* }*/
+.scrtabs-tab-scroll-arrow {
+  border: 1px solid #dddddd;
+  border-top: none;
+  color: #428bca;
+  cursor: pointer;
+  display: none;
+  float: left;
+  font-size: 12px;
+  padding-left: 2px;
+  padding-top: 13px;
+  height: 42px;
+ }
   .scrtabs-tab-scroll-arrow:hover {
     /*background-color: #eeeeee;*/
   }
@@ -94,14 +93,13 @@ margin-bottom: 20px; }
   .scrtabs-tabs-fixed-container ul.nav-tabs > li {
     white-space: nowrap;
     padding: 0 4px;
-
-
   }
+  .scrtabs-tab-scroll-arrow
+   {
+    display: none !important;
+   }
 }
 
 
-.scrtabs-tab-scroll-arrow
-{
-  display: none !important;
-}
+
 

@@ -1,16 +1,16 @@
 body
 {
+
+	.fa-map-marker
+	{
+		margin-right: 12px !important;
+	}
 		.tournaments-system-content {
 			.fa {
 				font-size: 20px !important;
 				color: #ccc;
 				margin-right: 5px;
 			}
-		}
-
-		button
-		{
-			border-radius: 0px !important;
 		}
 		a{
 			&:hover
@@ -28,6 +28,7 @@ body
 			text-transform: uppercase;
 			font-weight: bold;
 			font-size: 22px;
+			text-align: left;
 		}
 		.dropdown
 		{
@@ -161,6 +162,7 @@ body
 	{
 		img {
 			max-width: 180px;
+			margin-top: 20px;
 		}
 	}
 	.lich-thi-dau
@@ -688,11 +690,6 @@ body
 				font-weight: bold;
 				width: 65%;
 				font-size: 20px;
-				p
-				{
-					font-size: 2.5rem;
-					text-align: center;
-				}
 			}
 			.logo
 			{
@@ -1125,10 +1122,10 @@ footer
 	{
 		background-color: #FFFFFF !important;
 		color: black !important;
-		 ul 
+		 ul
 		 li{
 			 border-bottom: 1px solid #ccc;
-			 a 
+			 a
 			 {
 			 	color: black !important;
 			 	padding: 3% !important;
@@ -1663,7 +1660,7 @@ footer
 		padding: 0;
 	}
 	.all-box .title-intro
-	{	
+	{
 		padding: 0 10px;
 		p
 		{
@@ -1695,6 +1692,37 @@ footer
 
 
 }
+
+.all-service
+{
+	display: flex;
+	flex-wrap: wrap;
+	.service-info
+	{
+		border:1px solid  #0BABA6;
+		padding: 10px;
+		p
+		{
+			margin: 0;
+		}
+	}
+	.service-mini:not(:first-child)
+	{
+		margin-left: 2%;
+
+	}
+	.service-mini
+	{
+		transition: 0.3s;
+		&:hover
+		{
+			background: #0BABA6;
+			color: white;
+			transition: 0.3s;
+		}
+	}
+}
+
 @media only screen and (max-width: 452px){
 	// .all-box .tournaments .tournaments-system
 	// {
@@ -1832,7 +1860,7 @@ footer
 		{
 			text-align: center;
 			input
-			{	
+			{
 				margin-bottom: 5%;
 			}
 		}
